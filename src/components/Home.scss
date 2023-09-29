@@ -1,0 +1,21 @@
+.item-list{
+   
+
+   .left{
+      flex:1;
+      position: sticky;
+      height: 100%;
+      top: 50px;
+      .filterItem{
+         margin-bottom: 30px;
+      }
+   }
+   .right{
+      flex:3;
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin : 50px 100px;
+   }
+}

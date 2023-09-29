@@ -1,0 +1,29 @@
+.navbar{
+    height: 80px;
+
+    .wrapper{
+        display: flex;
+        padding: 10px 30px;
+        justify-content: space-between;
+        align-items: center;
+
+        .left{
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .center{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+            
+            }
+       
+        .right{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+        }
+    }
+
+}
